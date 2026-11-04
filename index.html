@@ -6,9 +6,8 @@
   <a class="brand" href="#" aria-label="智能优化算法练习首页"><span class="brand-symbol">∑</span><span>知 · 练<small>OPTIMIZATION</small></span></a>
   <div class="side-label">我的练习</div>
   <nav aria-label="练习模式">
-    <button class="nav-item active" data-mode="all"><span class="nav-icon">▤</span>顺序练习<span class="nav-count">177</span></button>
+    <button class="nav-item active" data-mode="all"><span class="nav-icon">▤</span>顺序练习<span class="nav-count">180</span></button>
     <button class="nav-item" data-mode="random"><span class="nav-icon">⤨</span>随机练习</button>
-    <button class="nav-item" data-mode="inferred"><span class="nav-icon">◇</span>推测专练<span class="nav-count">3</span></button>
     <button class="nav-item" data-mode="wrong"><span class="nav-icon">↺</span>错题重练<span class="nav-count" id="wrong-count">0</span></button>
     <button class="nav-item" data-mode="starred"><span class="nav-icon">☆</span>收藏题目<span class="nav-count" id="star-count">0</span></button>
   </nav>
@@ -18,12 +17,12 @@
 <main>
   <header class="topbar"><span>学习空间 <span class="crumb">/</span> 智能优化算法</span><span id="save-status"><i></i>进度保存在此浏览器</span></header>
   <section class="intro"><div><div class="eyebrow">A LITTLE PRACTICE, EVERY DAY</div><h1>把概念，练扎实<span>。</span></h1><p>180 道记忆题，单选、多选与判断，帮助你理解并记住课堂要点。</p></div><div class="edition"><span>SMART<br>OPTIMIZATION</span><b>01—180</b></div></section>
-  <section class="stats" aria-label="学习统计"><div class="stat"><span>累计已练</span><strong id="stat-done">0<small> / 177 题</small></strong><div class="stat-line"><i id="overall-bar"></i></div></div><div class="stat"><span>累计正确率</span><strong id="stat-rate">—<small> 暂无记录</small></strong><span class="stat-caption" id="stat-attempts">从第一题开始积累</span></div><div class="stat"><span>待巩固错题</span><strong id="stat-wrong">0<small> 题</small></strong><span class="stat-caption">再次答对后自动移出错题本</span></div></section>
+  <section class="stats" aria-label="学习统计"><div class="stat"><span>累计已练</span><strong id="stat-done">0<small> / 180 题</small></strong><div class="stat-line"><i id="overall-bar"></i></div></div><div class="stat"><span>累计正确率</span><strong id="stat-rate">—<small> 暂无记录</small></strong><span class="stat-caption" id="stat-attempts">从第一题开始积累</span></div><div class="stat"><span>待巩固错题</span><strong id="stat-wrong">0<small> 题</small></strong><span class="stat-caption">再次答对后自动移出错题本</span></div></section>
   <div class="workspace"><section class="practice">
-    <div class="toolbar"><div class="section-title"><span class="tiny-line"></span><h2 id="mode-title">顺序练习</h2></div><label class="topic-label">来源页 <select id="topic-filter" aria-label="筛选知识点"><option value="all">全部来源页</option></select></label></div>
+    <div class="toolbar"><div class="section-title"><span class="tiny-line"></span><h2 id="mode-title">顺序练习</h2></div><label class="topic-label">来源页 <select id="topic-filter" aria-label="筛选来源页"><option value="all">全部来源页</option></select></label></div>
     <article class="question-card" id="question-card"></article>
     <div class="under-card"><span>使用选项作答，多选题需提交；<kbd>←</kbd><kbd>→</kbd> 切题</span><button id="restart-button">↻ 重新开始本轮</button></div>
-  </section><aside class="right-panel"><section class="map-card"><div class="map-head"><h2>本轮答题卡</h2><span id="round-progress">0 / 177</span></div><div class="round-track"><i id="round-bar"></i></div><div class="question-grid" id="question-grid"></div><div class="legend"><span><i class="correct"></i>答对</span><span><i class="incorrect"></i>答错</span><span><i></i>未答</span></div><button class="summary-button" id="summary-button">查看本轮总结 ↗</button></section><section class="tip-card"><span class="tip-label">学习小提示</span><h3>先回忆，再看解析。</h3><p>多选题尝试选齐全部要点，再用解析和提纲复述。</p><div class="tip-bottom">理解原因，比记住选项更重要 <span>↗</span></div></section></aside></div>
+  </section><aside class="right-panel"><section class="map-card"><div class="map-head"><h2>本轮答题卡</h2><span id="round-progress">0 / 180</span></div><div class="round-track"><i id="round-bar"></i></div><div class="question-grid" id="question-grid"></div><div class="legend"><span><i class="correct"></i>答对</span><span><i class="incorrect"></i>答错</span><span><i></i>未答</span></div><button class="summary-button" id="summary-button">查看本轮总结 ↗</button></section><section class="tip-card"><span class="tip-label">学习小提示</span><h3>先回忆，再看解析。</h3><p>多选题尝试选齐全部要点，再用解析和提纲复述。</p><div class="tip-bottom">理解原因，比记住选项更重要 <span>↗</span></div></section></aside></div>
   <footer class="main-footer"><span>智能优化算法 · 课堂复习题库</span><button id="reset-button">清除学习记录</button></footer>
 </main>
 <dialog id="modal"><div id="modal-content"></div><button class="modal-close" id="modal-close" aria-label="关闭弹窗">×</button></dialog>
